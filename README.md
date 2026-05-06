@@ -2,7 +2,6 @@
 # CAFA-6 Protein Function Prediction
 
 This repository contains a machine learning pipeline for the CAFA-6 Protein Function Prediction challenge. The project predicts Gene Ontology terms for protein sequences using LightGBM classifiers, amino acid frequency features, and Gene Ontology hierarchy-based score propagation.
-
 ## Project Overview
 
 Protein function prediction is a multi-label classification problem where a single protein can be associated with multiple Gene Ontology terms. In this project, protein sequences are processed from FASTA files and converted into numerical features based on amino acid frequencies. These features are then used to train LightGBM binary classifiers for selected GO terms.
